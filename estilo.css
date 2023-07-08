@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url(Sol.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+input{
+    display: block;
+    height: 3vw;
+    width: 90%;
+    margin: 1vw;
+    border-radius: 1.3vw;
+    border: 0.1vw solid white;
+    font-size: 1.2vw;
+    padding: 0.2vw 0.4vw;
+    background-color: rgba(255, 255, 255, 0.01);
+    outline: none;
+    color: #fff;
+}
+
+div#corpoForm{
+    /*background-color: red;*/
+    width: 30%;
+    margin: 10vw auto 0vw auto;
+}
+
+div#corpoForm-cad{
+    width: 30%;
+    margin: 5vw auto 0vw auto;
+}
+
+
+div#corpoForm h1{
+    text-align: center;
+    padding: 1vw;
+}
+div#corpoForm-cad h1{
+    text-align: center;
+    padding: 1vw;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+input[type = submit]{
+    background-color: #cc00ff;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    margin-left: 1.7vw;
+}
+
+::-webkit-input-placeholder {
+    color:#fff;
+}
+
+:-moz-placeholder {
+    color: #fff;
+}
+
+::-moz-placeholder{
+    color: #fff;
+}
+
+:-ms-input-placeholder{
+    color: #fff;
+}
+
+div#msg-sucesso{
+    width: 30%;
+    margin: 1vw auto;
+    padding: 1vw;
+    background-color: rgba(50, 205, 50, .3);
+    border: 0.2 solid rgb(34,139,34);
+
+}
+div.msg-erro{
+    width: 30%;
+    margin: 1vw auto;
+    padding: 1vw;
+    background-color: rgba(250, 128, 114, .3);
+    border: 0.2 solid rgb(165,42,42);
+}
